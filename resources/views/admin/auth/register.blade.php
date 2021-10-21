@@ -37,18 +37,33 @@
                                         <label for="useremail">Email</label>
                                         <input type="email" class="form-control" id="useremail"
                                             placeholder="Enter email" name="email">
+                                        @error('email')
+                                            <div class="alert alert-danger">
+                                                {{ $message }}
+                                            </div>
+                                        @enderror
                                     </div>
 
                                     <div class="form-group">
                                         <label for="username">Username</label>
                                         <input type="text" class="form-control" id="username"
                                             placeholder="Enter username" name="username">
+                                        @error('username')
+                                            <div class="alert alert-danger">
+                                                {{ $message }}
+                                            </div>
+                                        @enderror
                                     </div>
 
                                     <div class="form-group">
                                         <label for="userpassword">Password</label>
                                         <input type="password" class="form-control" id="userpassword"
                                             placeholder="Enter password" name="password">
+                                        @error('password')
+                                            <div class="alert alert-danger">
+                                                {{ $message }}
+                                            </div>
+                                        @enderror
                                     </div>
 
                                     <div class="mt-4">
