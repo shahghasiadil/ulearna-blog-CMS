@@ -1,6 +1,6 @@
 ## Laravel Ulearna blog CMS
 
- Laravel high features implemented in this blog system
+    Laravel high features implemented in this blog system
 
 ## Laravel Installation guide
 
